@@ -1,0 +1,32 @@
+{
+  "name": "itunes-search-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "concurrently \"npm run server\" \"cd ./frontend/itunes-search-app-frontend && npm start\"",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "kovy-munsami",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.20.1",
+    "concurrently": "7.6.0",
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "helmet": "6.0.1",
+    "morgan": "1.10.0",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "chai": "4.3.7",
+    "mocha": "10.2.0",
+    "nodemon": "2.0.20"
+  },
+  "engines": {
+    "node": "18.12.1",
+    "npm": "9.4.0"
+  }
+}
