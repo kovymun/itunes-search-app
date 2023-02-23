@@ -1,0 +1,101 @@
+/**ITUNES SEARCH APP: CSS FILE**/
+/* This app is styled using CSS, Bootstrap V5, and React-Bootstrap library */
+
+/* Removing the default settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+}
+
+/***********************************************************************************************************************************************************/
+/* Styling for the header section of the "Home Page" */
+.home-page-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+.header-btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+}
+
+/***********************************************************************************************************************************************************/
+/* Styling for the text-intro section of the "Home and Favorites Page" */
+.intro-text {
+  outline: 2px solid black;
+  width: 70%;
+  text-align: center;
+  margin: 1em auto 0 auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background-color: black;
+  color: white;
+}
+
+/***********************************************************************************************************************************************************/
+/* Styling for the Search Bar section of the "Home Page */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+}
+
+/***********************************************************************************************************************************************************/
+/* Styling for the Search Result display on the "Home Page */
+.search-result-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.search-item-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  outline: 2px solid black;
+  width: 70%;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+/***********************************************************************************************************************************************************/
+/* Styling for the "favorites page" */
+.favorite-page-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+.favorite-btn-container {
+  width: 10%;
+}
+
+.delete-icon {
+  font-size: 1.5em;
+  position: absolute;
+  top: 2%;
+  right: 10px;
+  cursor: pointer;
+}
