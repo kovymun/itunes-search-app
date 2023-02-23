@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://itunes-search-app-5v6w.onrender.com/",
+      "https://itunes-search-app-vvps.onrender.com",
     ],
   })
 );
