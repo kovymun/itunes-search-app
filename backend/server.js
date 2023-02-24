@@ -10,17 +10,10 @@ const helmet = require("helmet");
 const bp = require("body-parser");
 const routes = require("./routes/routes");
 
-/*Setting up the App middleware. Note: helmet framework was used to secure this expressJS back-end application.*/
+/*Setting up the App middleware. Note: helmet framework used to secure this expressJS back-end application.*/
 app.use(bp.json());
 app.use(bp.urlencoded({ extended: true }));
-app.use(
-  cors({
-    origin: [
-      "http://localhost:3000",
-      "https://itunes-search-app-vvps.onrender.com",
-    ],
-  })
-);
+app.use(cors());
 app.use(morgan("dev"));
 app.use(helmet());
 app.use("/api", routes);
