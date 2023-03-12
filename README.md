@@ -8,7 +8,6 @@
 - [Usage guide](#usage-guide)
 - [App Security Measures](#app-security-measures)
 - [App Testing Measures](#app-testing-measures)
-- [Deployed App Link](#deployed-app-link)
 - [Credits Section](#credits-section)
 
 ## Description:
@@ -95,13 +94,6 @@ In this project, *Back-end unit testing* is performed using **Mocha** and **Chai
 - **mocha and chai** libraries have already been installed using the following command, *npm install --save-dev mocha chai*.
 - To execute your test, run **npm test** in your command line interface.
 - Review your *test results*.
-
-## Deployed App Link:
-
-DISCLAIMER:
-As Heroku web hosting no longer has a free tier option, the plan was to deploy the app on either Railway or Render web hosting services. Unfortunately, there are challenges and no credits available to deploy the app to a hosting service. 
-
-After consultation with mentor Seraaj de Villiers, we’ve agreed that as the app works on my local machine, I may submit this task – with a kind request for deployment of app to be exempt when reviewing this task. I trust all is in order in this regard.
 
 ## Credits Section:
 
